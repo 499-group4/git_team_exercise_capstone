@@ -3,6 +3,7 @@ import random
 from selection_sort import selection_sort
 from quick_sort import quick_sort
 from merge_sort import merge_sort
+from insertion_sort import insertion_sort
 
 import sys
 
@@ -35,6 +36,9 @@ class SimpleTest(unittest.TestCase):
 
     def test_merge_sort(self):
         self.assertEqual(sorted_array3, quick_sort(num_array3))
+
+    def test_insertion_sort(self):
+        self.assertEqual(sorted_array, insertion_sort(num_array))
 
 
 if __name__ == '__main__':

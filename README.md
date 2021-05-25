@@ -15,7 +15,10 @@ Capstone E2 for Team 4.
 - Merge Sort by Ahmad Jamal
 
   A Merge sort algorithm that sorts the array recursively, by using the divide and conquer strategy, where the array is divided into equal/unequal halves until the base case of only 1 element is hit. At that point, the array is merged back into its original array in a sorted fashion. 
-  
+ 
+- Insertion Sort by Varun Mohan Jha
+
+  Implemented insertion sort in insertion_sort.py and created unit test similar to SelctionSort. Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort 
   
 ## Testing
 
