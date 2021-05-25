@@ -20,6 +20,10 @@ Capstone E2 for Team 4.
 
   Implemented insertion sort in insertion_sort.py and created unit test similar to SelctionSort. Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort 
   
+- Bubble Sort by Sean Roarty.
+
+  Added an implementation of bubble sort inside of bubble_sort.by. Bubble sort works by iterating over the list n times, and comparing each element with its forward-neighbour. If the neighbouring element is smaller, the values are swapped. This results in an O(n^2) time complexity, and is therefore unsuitable for large sets.
+  
 ## Testing
 
 - Proceed to run Python file testing.py for unit tesing. 
